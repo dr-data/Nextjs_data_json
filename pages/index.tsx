@@ -17,14 +17,14 @@ const IndexPage = () => {
       <Flex flexDirection="column" alignItems="center" margin="2rem">
         <Link href="https://egghead.io/playlists/introduction-to-next-js-9-9c01?af=dkm3m8">
           <Heading as="h1" size="2xl" marginY="1rem">
-            Introduction to Next.js 9
+            Displaying image
           </Heading>
         </Link>
         <Box width="xl">
           <Divider />
         </Box>
         <Heading as="h2" size="lg" marginY="1rem">
-          Server-Side Rendering (SSR) with `getServerSideProps`
+          from contract
         </Heading>
         <Button
           variantColor="blue"
@@ -32,6 +32,13 @@ const IndexPage = () => {
           onClick={() => Router.push(`/user/${getRandomInt(40)}`)}
         >
           Check out a random user
+        </Button>
+        <Button
+          variantColor="blue"
+          margin="3rem"
+          onClick={() => Router.push(`/nft/${getRandomInt(120)}`)}
+        >
+          Check out a random NFT
         </Button>
       </Flex>
     </Box>
