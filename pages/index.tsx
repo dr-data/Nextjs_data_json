@@ -34,7 +34,7 @@ const IndexPage = () => {
           Check out a random user
         </Button>
         <Button
-          variantColor="blue"
+          variantColor="green"
           margin="3rem"
           onClick={() => Router.push(`/nft/${getRandomInt(120)}`)}
         >
